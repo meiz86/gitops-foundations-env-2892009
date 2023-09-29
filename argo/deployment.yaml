@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: gitops-foundations
-        image: m3hdi001/gitops-foundations:2.0
+        image: m3hdi001/gitops-foundations:1.0
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
